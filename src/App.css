@@ -1,0 +1,159 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e293b;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero .highlight {
+  color: #38bdf8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #38bdf8;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #0ea5e9;
+}
+
+/* About */
+.about {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #1e293b;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 1rem auto;
+  color: #cbd5e1;
+}
+
+/* Projects */
+.projects {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: #1e293b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* Skills */
+.skills {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #1e293b;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.skill {
+  background-color: #0f172a;
+  border: 1px solid #38bdf8;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  background-color: #38bdf8;
+  color: #0f172a;
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.contact p {
+  color: #cbd5e1;
+  margin-bottom: 1rem;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
